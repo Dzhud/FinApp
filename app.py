@@ -114,7 +114,7 @@ api.add_resource(WalletListResource, '/wallet')
 
 
 # Creates new Resource to fetch User/Profile/Wallet details
-# Something seem to be wrong here so still working on this
+# Something seem to be wrong here so still working on it
 '''
 class UserResource(Resource):
     def get(self, user_id):
